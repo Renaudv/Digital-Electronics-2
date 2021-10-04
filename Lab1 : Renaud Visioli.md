@@ -45,14 +45,14 @@ int main(void)
         _delay_ms(SHORT_DELAY);
 
         // WRITE YOUR CODE HERE
-        DDRB = 1;
+        PORTB = PORTB | (1<<LED_GREEN)
         _delay_ms(SHORT_DELAY);
-        DDRB = 0;
+        PORTB = PORTB & ~(1<<LED_GREEN);
         _delay_ms(SHORT_DELAY);
-        DDRB = 1;
+        PORTB = PORTB | (1<<LED_GREEN) 
         _delay_ms(SHORT_DELAY);
         _delay_ms(SHORT_DELAY);
-        DDRB = 0;
+        PORTB = PORTB & ~(1<<LED_GREEN);
         _delay_ms(SHORT_DELAY);
     }
 
@@ -64,4 +64,4 @@ int main(void)
 
 2. Scheme of Morse code application, i.e. connection of AVR device, LED, resistor, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+   ![your figure](https://zupimages.net/viewer.php?id=21/40/mf85.jpg)
