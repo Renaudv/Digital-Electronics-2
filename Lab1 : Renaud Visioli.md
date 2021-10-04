@@ -45,6 +45,9 @@ int main(void)
         _delay_ms(SHORT_DELAY);
 
         // WRITE YOUR CODE HERE
+        DDRB = 1;
+        _delay_ms(SHORT_DELAY);
+        DDRB = 0
     }
 
     // Will never reach this
