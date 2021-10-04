@@ -6,12 +6,12 @@
 ### Blink example
 
 1. What is the meaning of the following binary operators in C?
-   * `|` Or
-   * `&` and
-   * `^` 
-   * `~` negativ
-   * `<<` left binary shift
-   * `>>` right binary shift
+   * `|` Logical Or
+   * `&` Logical and
+   * `^` Logical EX - OR
+   * `~` One's complement 
+   * `<<` left shift
+   * `>>` right shift
 
 2. Complete truth table with operators: `|`, `&`, `^`, `~`
 
@@ -47,7 +47,13 @@ int main(void)
         // WRITE YOUR CODE HERE
         DDRB = 1;
         _delay_ms(SHORT_DELAY);
-        DDRB = 0
+        DDRB = 0;
+        _delay_ms(SHORT_DELAY);
+        DDRB = 1;
+        _delay_ms(SHORT_DELAY);
+        _delay_ms(SHORT_DELAY);
+        DDRB = 0;
+        _delay_ms(SHORT_DELAY);
     }
 
     // Will never reach this
