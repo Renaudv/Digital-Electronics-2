@@ -12,8 +12,8 @@ Link to your `Digital-electronics-2` GitHub repository:
 | **Module** | **Number of bits** | **1** | **8** | **32** | **64** | **128** | **256** | **1024** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Timer/Counter0 | 8  | 16u | 128u | -- | 1m | -- | 4m | 16m |
-| Timer/Counter1 | 16 | 4m |  33m | -- | 262m| -- | 1|4 |
-| Timer/Counter2 | 8  |     |      |    | |    | | |
+| Timer/Counter1 | 16 | 4096u |  32768m | -- | 262144u| -- | 1s|4s |
+| Timer/Counter2 | 8  |   16u  |  128u    |  512u  | 1024u|  2048u  | 4096u | 16384u |
 
 
 ### Timer library
@@ -63,4 +63,4 @@ Link to your `Digital-electronics-2` GitHub repository:
 
 1. Scheme of Knight Rider application with four LEDs and a push button, connected according to Multi-function shield. Connect AVR device, LEDs, resistors, push button, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+ ![image](https://user-images.githubusercontent.com/91612064/137933161-735f9ced-ea12-4d9a-8dd0-65a38fcc8ce1.png)
