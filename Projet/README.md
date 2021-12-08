@@ -62,3 +62,5 @@ https://moodle.vut.cz/course/view.php?id=241310
 https://github.com/tomas-fryza/Digital-electronics-2
 
 http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
+
+https://www.handsontec.com/dataspecs/module/2Ch-relay.pdf
