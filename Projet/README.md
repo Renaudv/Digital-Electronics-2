@@ -43,8 +43,7 @@ Write your text here.
 
 ## Main application
 
-https://moodle.vut.cz/course/view.php?id=241310
-https://github.com/tomas-fryza/Digital-electronics-2
+
 
 
 <a name="video"></a>
@@ -57,4 +56,5 @@ Write your text here
 
 ## References
 
-1. Write your text here.
+https://moodle.vut.cz/course/view.php?id=241310
+https://github.com/tomas-fryza/Digital-electronics-2
