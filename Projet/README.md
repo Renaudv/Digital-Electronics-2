@@ -31,7 +31,8 @@ Make a monitoring and control system of a GreenHouse, including : light / moisur
 
 ## Hardware description
 
-Write your text here.
+[IMG_3910](https://user-images.githubusercontent.com/91612064/145234998-c7b4ab60-2436-494e-a160-be616c6de720.jpg)
+
 
 <a name="libs"></a>
 
